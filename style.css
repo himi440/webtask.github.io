@@ -1,0 +1,124 @@
+* {
+    margin:0;
+    padding: 0;
+}
+/*
+div.main div.background img{
+    width:100%;
+    
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position:relative;
+    font-family: sans-serif;
+}
+*/
+
+div.main div.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+div.main div.navbar img{
+    width: 160px;
+    cursor: pointer;
+    margin-top:0px ;
+    margin-left: -2%;
+
+}
+
+ul{
+    margin-top: -4%;
+
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: -3%;
+    transition: .4s ease;
+
+
+}
+
+ul li a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.info{
+    margin: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 40px;
+    color: black;
+}
+
+.info h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+}
+
+.info span{
+    color: brown;
+}
+
+
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+
+.info a:hover{
+    background-color: brown;
+}
+
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position:absolute;
+    height: 350px;
+    width: 350px;
+    left: 40%;
+    transform: translate(-35%);n  
+    bottom: 0;
+    transition: left 2s ease;
+    border-radius: 190px;
+}
+
+
+img:hover .girl{
+    left: 55%;
+}
